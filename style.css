@@ -66,6 +66,8 @@
       cursor: pointer;
       background-color: #ce2f47;
       transition: .5s;
+      opacity: 96%;
+      border-radius: 40%;
   }
   
   button:hover {
