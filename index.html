@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Calculator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Calculator BY  
+      <i class="fa fa-github"
+               style="font-size:33px;color:red"></i>
+               <a target="_blank" href="https://github.com/shagun1021"> @shagun1021</a></h1>
+    <section id="container">
+        <div id="screen"></div>
+        <div id="buttons">
+            <button class="number" onclick="addToScreen('1')">1</button>
+            <button class="number" onclick="addToScreen('2')">2</button>
+            <button class="number" onclick="addToScreen('3')">3</button>
+            <button id="clear" onclick="clearScreen()">C</button>
+            <button class="number" onclick="addToScreen('4')">4</button>
+            <button class="number" onclick="addToScreen('5')">5</button>
+            <button class="number" onclick="addToScreen('6')">6</button>
+            <button class="operator" onclick="addToScreen('+')">+</button>
+            <button class="number" onclick="addToScreen('7')">7</button>
+            <button class="number" onclick="addToScreen('8')">8</button>
+            <button class="number" onclick="addToScreen('9')">9</button>
+            <button class="operator" onclick="addToScreen('-')">-</button>
+            <button id="equals" onclick="calculate()">=</button>
+            <button class="number" onclick="addToScreen('0')">0</button>
+            <button class="operator" onclick="addToScreen('*')">X</button>
+            <button class="operator" onclick="addToScreen('/')">/</button>
+        </div>
+    </section>
+</body>
+</html>
